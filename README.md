@@ -1,4 +1,4 @@
-## Simple# IRC Bot ##  
+## Simple# IRC Bot  
 This is just a simple little IRC bot written in C#.  
 If you need help... you're on your own.  
 
