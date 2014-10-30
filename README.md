@@ -6,13 +6,8 @@ If you need help... you're on your own.
 
 
 License:
-
- Author:
-   Jason Barbier jabarb@serversave.us
-
- Copyright (c) 2012, Jason Barbier
-
- All rights reserved.
+ Author: Jason Barbier jabarb@serversave.us 
+ Copyright (c) 2012, Jason Barbier All rights reserved.
 
  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
