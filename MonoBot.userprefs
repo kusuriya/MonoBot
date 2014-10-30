@@ -1,0 +1,13 @@
+﻿<Properties GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoBot/Main.cs">
+    <Files>
+      <File FileName="MonoBot/Main.cs" Line="37" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="Jason Barbier" Email="jabarb@serversave.us" Copyright="Jason Barbier" Company="Cyberdyne Systems" Trademark="" />
+</Properties>
