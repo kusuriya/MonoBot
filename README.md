@@ -5,7 +5,7 @@ This is just a simple little IRC bot written in C#.
 If you need help... you're on your own.
 
 
-License:
+License:  
  Author: Jason Barbier jabarb@serversave.us 
  Copyright (c) 2012, Jason Barbier All rights reserved.
 
