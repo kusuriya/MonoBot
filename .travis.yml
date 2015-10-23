@@ -1,0 +1,7 @@
+language: csharp
+solution: MonoBot.sln
+mono:
+  - latest
+
+install:
+  - nuget restore MonoBot.sln
