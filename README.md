@@ -1,4 +1,7 @@
 ## Simple# IRC Bot  
+[![Build Status](https://travis-ci.org/kusuriya/MonoBot.png?branch=master)](https://travis-ci.org/kusuriya/MonoBot)  
+
+
 This is just a simple little IRC bot written in C#.  
 If you need help... you're on your own.  
 
