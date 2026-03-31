@@ -1,0 +1,14 @@
+<Project>
+  <!--
+    During local development, plugin DLLs are written directly into the main app's
+    bin/plugins/ subdirectory so that `dotnet run` (in src/MonoBot) finds them automatically.
+
+    For publish/Docker, each plugin is explicitly published to the app's plugins/ output
+    folder by the Dockerfile. The OutputPath here is only used for local builds.
+  -->
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <OutputPath>$(MSBuildThisFileDirectory)..\MonoBot\bin\$(Configuration)\net10.0\plugins\</OutputPath>
+  </PropertyGroup>
+</Project>

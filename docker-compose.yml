@@ -1,0 +1,19 @@
+services:
+  monobot:
+    build: .
+    image: monobot:latest
+    restart: unless-stopped
+    volumes:
+      - monobot-data:/data
+    env_file:
+      - .env                              # Copy .env.example → .env and fill in secrets
+    environment:
+      - MONOBOT_Server=irc.libera.chat
+      - MONOBOT_Port=6667
+      - MONOBOT_Nick=monobot
+      - MONOBOT_Name=MonoBot
+      - MONOBOT_Channels__0=#monobot
+      - MONOBOT_Database__Path=/data/monobot.db
+
+volumes:
+  monobot-data:

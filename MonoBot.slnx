@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MonoBot.Abstractions/MonoBot.Abstractions.csproj" />
+    <Project Path="src/MonoBot/MonoBot.csproj" />
+  </Folder>
+  <Folder Name="/src/Plugins/">
+    <Project Path="src/Plugins/MonoBot.Plugin.Admin/MonoBot.Plugin.Admin.csproj" />
+    <Project Path="src/Plugins/MonoBot.Plugin.Announcements/MonoBot.Plugin.Announcements.csproj" />
+    <Project Path="src/Plugins/MonoBot.Plugin.Bender/MonoBot.Plugin.Bender.csproj" />
+    <Project Path="src/Plugins/MonoBot.Plugin.Core/MonoBot.Plugin.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MonoBot.Tests/MonoBot.Tests.csproj" />
+  </Folder>
+</Solution>
